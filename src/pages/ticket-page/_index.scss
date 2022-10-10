@@ -1,16 +1,25 @@
 .ticket-page {
-  background-color: #282c34;
+  background-color: #dc422e;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  padding: 2rem;
+}
+
+.ticket-page__logo-container {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
 }
 
 .ticket-page__title {
+  font-size: 4rem;
 }
 
 .ticket-page__text {
-  font-size: calc(10px + 2vmin);
-  line-height: 4rem;
+  line-height: 3rem;
+  font-size: 2rem;
 }

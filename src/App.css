@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-.App div {
+.App > div {
   height: 100%;
 }
 
